@@ -2,10 +2,10 @@
 #Queremos usar type() para ver como Python decide los tipos en base a los valores de inicialización que le damos
 
 class Calculadora:
-    '''def __init__(self): ESTE SERIA, COMO EN JAVA, EL CONSTRUCTOR DE LA CLASE POR DEFECTO, QUE ESTÁ IMPLICITO
-        self.num1 = 0
-        self.num2 = 0
-        self.operator = "" '''
+    #def __init__(self): ESTE SERIA, COMO EN JAVA, EL CONSTRUCTOR DE LA CLASE POR DEFECTO, QUE ESTÁ IMPLICITO
+        #self.num1 = 0
+        #self.num2 = 0
+        #self.operator = "" '''
     def pedir_usuario(self):
         self.num1 = float(input("Dime un numero: "))  # Convertido a float para permitir decimales
         self.num2 = float(input("Dime otro numero: "))
